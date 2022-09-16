@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa';
+}
+
+.container {
+    background: #ecf4ff;
+    color: #1c1c1c;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    padding: 64px;
+    height: 90vh;
+
+   
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.avatar {
+    border-radius: 50%;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.perfil{
+    display: flex;
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700; 
+    font-size: 40px;
+}
+
+.titulo h3 {
+    font-weight: 400; 
+    font-size: 20px;
+}
+
+.tema button {
+    align-self:flex-end;
+    font-family:'Comfortaa';
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+h4 {
+    font-size:32px;
+    margin: 20px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc6fc 83.19%);
+    margin-top: 32px;
+    margin-left: 100px;
+    padding: 32px;
+    width: 65.6vw;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    font-size: 2px;
+}
+
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.projetos a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+   
+a:hover {
+    color: rgb(66, 41, 104);
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+
+.container-menor {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+    background-position: right;
+    width: 300px;
+    color:#ecf4ff;
+    
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    padding: 64px;
+    position: relative;
+    top: -110px;
+    right: -800px;
+}
+
+aside p {
+    text-align: center;
+}
+
+aside .social-list{
+    font-family: "Comfortaa";
+    list-style: none;
+    
+    display:flex;
+    justify-content: center;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.page-logo {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+
+svg {
+    display: inline-block;
+    font-size: inherit;
+    height: 3em;
+    overflow: visible;
+    vertical-align: -.125em;
+    margin-right: 50px;
+}
+
+.dark {
+    background:linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+    background-color:#333439;
+    color:#f6f6f6;
+}
+
+.dark .projetos {
+    color: #1c1c1c;
+}
